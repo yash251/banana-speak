@@ -10,7 +10,7 @@ function getTranslationURL(text) {
 
 function errorHandler(error) {
     console.log("error occured ", error);
-    alert("something wrong with server, try again after sometime");
+    alert("something wrong with server, try again after sometime maybe your 5 translations per hour are done ");
 }
 
 
