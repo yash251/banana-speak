@@ -12,9 +12,9 @@ function clickHandler() {
     // outputDiv.innerText = "yeuyeuyeu " + txtInput.value;
     var inputText = txtInput.value;
 
-    fetch(getTranslationURL(text)) // calling server for processing
+    fetch(getTranslationURL(inputText)) // calling server for processing
     .then(response => response.json())
-    .then(json => console.log(json)) 
+    .then(json => console.log(json.contents.translated)) 
 };
 
 btnTranslate.addEventListener("click", clickHandler)
