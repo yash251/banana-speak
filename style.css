@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 :root {
-    --primary: #F2C94C;
+    --primary: #fbd207;
     --black: #333333;
     --width-break:600px
 }
 
 body {
     margin: 0;
-    font-family: 'Kalam', cursive;
+    font-family: 'Ubuntu Mono', cursive;
     color: #333333;
 }
 
